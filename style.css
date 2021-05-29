@@ -1,0 +1,10 @@
+html {
+    /* This prevents padding from adding extra width or extra height to the page */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* "vh" stands for view per height and that is the full height of entire window */
+    min-height: 100vh;
+}
